@@ -46,3 +46,10 @@ function get_all_users() {
     $users = $db->query("SELECT * FROM users");
     return $users;   
 }
+
+function search($search_text) {
+    global $db;
+    $res = $db->query("SELECT * FROM news WHERE header LIKE '%$search_text%' OR descr LIKE '%$search_text%' OR text LIKE '%$search_text%'");
+    echo $res;
+    return $res;   
+}
