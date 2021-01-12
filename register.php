@@ -1,4 +1,5 @@
 <?php
+//echo 'hi there';
     session_start();
 ?>
 
@@ -27,13 +28,14 @@
                     <form id="register" action="vendor/signup.php" method="post" enctype="multipart/form-data">
                         <input type="login" name="login" class="form-control" placeholder="Login...">
                         <input type="email" name="email" class="form-control" placeholder="E-mail...">
-                        <input type="file" name="photo" id="user_photo">
+<!--                        <input type="file" name="photo" id="user_photo">-->
                         <input type="password" name="password" class="form-control" id="password_in" placeholder="Password...">
                         <button type="submit" class="btn btn-light">Sign in</button>
                         <p>
                             Already have an account? - <a href="index.php">Log in</a>
                         </p>
                         <?php
+//                            echo 'hello world';
                             if ($_SESSION['message']) { 
                                echo  $_SESSION['message']; 
                             }

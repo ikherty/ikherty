@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
-        <title>DaiKatana</title>
+        <title>ikherty</title>
 
     </head>
 
