@@ -6,7 +6,7 @@ try{
     $db = new PDO($dsn, $username, $password);
     echo 'success!';
     echo    get_user();
-
+    new_user("qq",$email,$password);
 } catch (PDOException $e) {
     $error_message=$e->getMessage();
     echo $error_message;
@@ -22,4 +22,10 @@ function get_user() {
 }
 
     }
+function new_user($login,$email,$password) {
+        $sql = "INSERT INTO users VALUES (NULL, '$login', '$password', '$email')";
+        $stm = $db->prepare($sql);
+        $stm->execute();
+        echo 'юзверь добавлен';
+}
 ?>

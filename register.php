@@ -21,21 +21,19 @@
 <body>
     <section class="login">
         <div class="container">
-            <h1>Hi! first here?</h1>
+            <h1>Добро пожаловать в Propwash Service!</h1>
             <div class="row">
                 <div class="col">
-                    <h2 class="white">Register:</h2>
+                    <h2 class="white">Заполните поля:</h2>
                     <form id="register" action="vendor/signup.php" method="post" enctype="multipart/form-data">
-                        <input type="login" name="login" class="form-control" placeholder="Login...">
+                        <input type="login" name="login" class="form-control" placeholder="Логин...">
                         <input type="email" name="email" class="form-control" placeholder="E-mail...">
-<!--                        <input type="file" name="photo" id="user_photo">-->
-                        <input type="password" name="password" class="form-control" id="password_in" placeholder="Password...">
-                        <button type="submit" class="btn btn-light">Sign in</button>
+                        <input type="password" name="password" class="form-control" id="password_in" placeholder=" Пароль...">
+                        <button type="submit" class="btn btn-light">Зарегестрироваться</button>
                         <p>
-                            Already have an account? - <a href="index.php">Log in</a>
+                            Уже зарегестрирован? - <a href="index.php">Войти</a>
                         </p>
                         <?php
-//                            echo 'hello world';
                             if ($_SESSION['message']) { 
                                echo  $_SESSION['message']; 
                             }

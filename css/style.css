@@ -9,7 +9,7 @@ h1 {
 }
 .blue {
     text-align: center; 
-    color: #3e84da;
+    color: #20c997;
 }
 .white {
     text-align: center; 
@@ -24,7 +24,7 @@ h2  {
 .blue_promo {
     padding-bottom: 80px;
     padding-top: 120px;
-    background: #3e84da;
+    background: #20c997;
 }
 .white_promo {
     padding-bottom: 80px;
@@ -34,8 +34,8 @@ h2  {
     color: #ffffff;
     border-width: 10px;
     line-height: 38px;
-    border: 1px solid #3e84da;
-    background:#3e84da;
+    border: 1px solid #20c997;
+    background:#20c997;
     padding: 0 20px 0 20px;
 }
 .promo_text {
@@ -58,19 +58,22 @@ h2  {
 .navbar {
     height: 100px;
     justify-content: center;
-    background-color: #fff;
+    background-color: #232a57;
     padding: 20px 40px;
 }
 .navbar-brand, .footer .logo {
     font-size: 30px;
 }
+.navbar-light .navbar-brand {
+    color: #fff;
+}
 .navbar a span, .footer .logo span {
-    color:#3e84da;
+    color:#20c997;
 }
 .blue_contact_btn {
     color: #fff;
     border-radius: 40px;
-    background-color: #3e84da;
+    background-color: #20c997;
     margin: 20px;
 }
 .blue_contact_btn:hover{
@@ -99,8 +102,8 @@ h2  {
     color: #ffffff;
     border-width: 10px;
     line-height: 38px;
-    border: 1px solid #3e84da;
-    background:#3e84da;
+    border: 1px solid #20c997;
+    background:#20c997;
     padding: 0 20px 0 20px;
 }
 .promo .promo_mouse {
@@ -115,7 +118,7 @@ h2  {
 
 .build, .client, .conversation_blue {
     padding-top: 100px;
-    background-color: #3e84da;
+    background-color: #20c997;
 }
 .build h2, .client h2 {
     color: #ffffff;
@@ -138,8 +141,16 @@ h2  {
 .client img {
     padding: 0 50px;
 }
-
-
+a {
+    color: #20c997;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #20c997;
+    border-color: #ffffff;
+}
 .conversation_blue {
     padding-bottom: 100px;
 }
@@ -174,20 +185,37 @@ h2  {
     font-size: 20px;
 }
 nav a {
+    font-size: 25px;
+    color: #ffffff;
+}
+nav a:nav-link {
     font-size: 15px;
-    color: #25282d;
+    color: #20c997;
 }
 
 nav a:hover{
-    border-bottom: 2px solid #3e84da;
+    border-bottom: 2px solid #20c997;
     text-decoration: none;
 }
 
-
+/*li {
+    color: #66a3b3;
+}*/
+li {
+    color: #66a3b3;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #20c997;
+}
 nav ul {
+    color: #66a3b3;
     padding: 20px;
     list-style: none;
-    display: flex; /*один из способов разместить элементы в строку*/
+    display: flex;
     justify-content: space-around;
 }
 
@@ -235,7 +263,7 @@ nav ul {
     margin-top: auto;
 }
 .tendril {
-    background: #3e84da;
+    background: #20c997;
     padding: 25px;
     font-family: 'Roboto', sans-serif;
 }
@@ -312,7 +340,7 @@ nav ul {
     padding: 100px 200px;
 }
 .approach_header {
-    color: #3e84da;
+    color: #20c997;
     font-size: 44px;
     padding: 20px 0 80px 0;
     text-align: center;
@@ -339,7 +367,7 @@ nav ul {
 }
 
 .form {
-    background: #3e84da;
+    background: #20c997;
     padding-bottom: 50px;
 }
 
@@ -351,7 +379,7 @@ nav ul {
     font-weight: 300;
 }
 .location_item_header {
-    color: #3e84da;
+    color: #20c997;
 }
 .contact_item, .location_item {
     padding: 20px;
@@ -370,7 +398,7 @@ nav ul {
 .blog_item h2 {
     font-size: 32px;
     text-align: left;
-    color: #3e84da;
+    color: #20c997;
 }
 .blog_item p {
     font-size: 20px;
@@ -392,15 +420,15 @@ nav ul {
 }
 .login {
     padding: 220px 0 80px 0;
-    background: #3e84da;
+    background: #20c997;
     height: 100vh;
 }
 .login form {
     padding: 100px;
 }
 .login p, .account p {
-    color: rgb(212, 219, 248);
-    font-size: 16px;
+    color: #ffffff;
+    font-size: 20px;
 }
 .login .error {
     font-size: 24px;

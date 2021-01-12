@@ -20,16 +20,16 @@
 <body>
     <section class="login">
         <div class="container">
-            <h1>Hi! first here?</h1>
+            <h1>Propwash Service</h1>
             <div class="row">
                 <div class="col">
-                    <h2 class="white">Log in:</h2>
+                    <h2 class="white">Вход в учетную запись:</h2>
                     <form id="Log_in" action="vendor/signin.php" method="post">
                         <input type="login" name="login" class="form-control" placeholder="Login...">
                         <input type="password" name="password" class="form-control" placeholder="Password...">
-                        <button type="submit" class="btn btn-light">Sign up</button>
+                        <button type="submit" class="btn btn-light">Войти</button>
                         <p> 
-                            Don't have an account yet? - <a href="register.php">Register</a>
+                            Впервые здесь?- <a href="register.php">Регистрация</a>
                         </p>
                         <p class="error">
                             <?php

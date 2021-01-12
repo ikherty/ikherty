@@ -23,6 +23,4 @@
   </div>
 </section>
 
-<?php require 'template/conv-light.php'; ?>
-
 <?php require 'template/footer.php'; ?>

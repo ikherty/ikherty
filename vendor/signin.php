@@ -15,7 +15,6 @@
         $_SESSION['user'] = [
             "id" => $user[0]['id'],
             "login"=> $user[0]['login']
-//            "photo"=> $user[0]['photo']
         ];
 
         $id = $_SESSION['user']['id'];

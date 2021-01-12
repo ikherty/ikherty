@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
-        <title>ikherty</title>
+        <title>Pwopwash Service</title>
 
     </head>
 
@@ -20,17 +20,17 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="daikatana.php">Dai<span>Katana</span></a>
+        <a class="navbar-brand" href="daikatana.php">Propwash<span>Service</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" href="account.php">Account</a>
-                <a class="nav-link" href="blog.php">News</a>   
-                <a class="nav-link" href="vendor/logout.php">Exit</a>        
+                <a class="nav-link" href="account.php">Аккаунт</a>
+                <a class="nav-link" href="blog.php">Лента</a>   
+                <a class="nav-link" href="vendor/logout.php">Выход</a>        
             </div>
         </div>
-        <a class="btn btn-primary blue_contact_btn" href="contact.php" role="button">Contact Us</a>
+        <a class="btn btn-primary blue_contact_btn" href="contact.php" role="button">Контакты</a>
         </nav>
     </header>
