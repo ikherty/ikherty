@@ -10,12 +10,26 @@
     </div>
   </div>
 </section>
-<section class="search">
+<!--<section class="search">
   <div class="container">
     <nav class="navbar navbar-light">
       <form class="form-inline" name="search" method="get" action="search.php">
         <input class="form-control mr-sm-2" name="search_text" type="search" placeholder="Введите слово.." aria-label="Search">
         <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Поиск</button>
+      </form>
+    </nav>
+  </div>
+</section>-->
+<script language="javascript" src="js/ajax.js"></script>
+
+<section class="search">
+  <div class="container">
+    <nav class="navbar navbar-light">
+      <form class="form-inline" name="searchForm" id="searchForm" method="post" action="javascript:searchNameq();">
+        <div class="searchInput">
+          <input class="form-control mr-sm-2" name="searchq" id="searchq" type="search" onkeyup="javascript:searchNameq()" placeholder="Введите слово.." aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" name="submitSearch" id="submitSearch" value="Search" type="submit" onclick="javascript:searchNameq()">Поиск</button>
+        </div>
       </form>
     </nav>
   </div>
